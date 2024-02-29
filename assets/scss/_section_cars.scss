@@ -1,0 +1,126 @@
+.cars{
+    background-color: #121415;
+    padding-bottom: 45px;
+    .cars_vars{
+        .text_carss{
+            font-family: 'Raleway', sans-serif;
+            font-size: 32px;
+            line-height: 34px;
+            font-weight: 600;
+            padding: 64px 0 27px 0;
+            color: #fff;
+            text-align: center;
+        }
+        .row{
+            .cars_on{
+                background-color: #fff;
+                .cars_in{
+                    .cars_titlee{
+                        padding: 24px 0 7px 24px;
+                        font-family: 'Golos Text', sans-serif;
+                        font-size: 21px;
+                        line-height: 23px;
+                        font-weight: 400;
+                    }
+                }
+                .car_ot{
+                    color: #E31E25;
+                    gap: 0 5px;
+                    .car_all{
+                        font-family: 'Golos Text', sans-serif;
+                        font-size: 21px;
+                        line-height: 23px;
+                        font-weight: 400;
+                        padding: 0 0 13px 24px;
+                    }
+                    .car_pod{
+                        a{
+                            color: #E31E25;
+                            font-family: 'Golos Text', sans-serif;
+                            font-size: 10px;
+                            line-height: 11px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .carss_img{
+                    padding: 0 15px 14px 15px;
+                    @media #{$bigTab}{
+                        text-align: center;
+                    }
+                    @media #{$mobile}{
+                        overflow: hidden;
+                    }
+                }
+                .cars_color{
+                    background-color: #ECEFF1;
+                    padding: 28px 23px 6px 27px;
+                    .car_element{
+                        gap: 0 10px;
+                    }
+                }
+                
+            }
+            .cars_buy{
+                text-align: center;
+                margin-bottom: 30px;
+                a{
+                    background-color: #E31E25;
+                    padding: 12px 44px;
+                    border-radius: 5px;
+                    text-align: center;
+                    text-decoration: none;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 16px;
+                    line-height: 17px;
+                    font-weight: 600;
+                    color: #fff;
+                }
+            }
+            .skidka{
+                margin-top: 125px;
+                background: linear-gradient(#FFFF00 , #FF6400);
+                padding-bottom: 30px;
+                .skid_title{
+                    text-align: center;
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: bold;
+                    font-size: 60.77px;
+                    line-height: 90px;
+                }
+                .skid_img{
+                    @media #{$mobile}{
+                        display: none;
+                    }
+                }
+                .mini_title{
+                    padding: 5px 0 18px 0;
+                    gap: 0 43px;
+                    font-family: 'Golos Text', sans-serif;
+                    font-weight: 500;
+                    font-size: 21px;
+                    line-height: 23px;
+                }
+                .skid_zay{
+                    a{
+                        padding: 12px 44px;
+                        text-decoration: none;
+                        background-color: #E31E25;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 17px;
+                        border-radius: 5px;
+                        color: #fff;
+                        &:hover{
+                            background-color: #BE2B23;
+                        }
+                    }
+                }
+                @media #{$tab}{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

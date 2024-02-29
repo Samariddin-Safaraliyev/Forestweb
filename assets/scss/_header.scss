@@ -1,0 +1,72 @@
+header{
+    padding: 5px 0;
+    .colum{
+        .nav{
+            @media #{$bigTab}{
+                margin-left: 15px;
+            }
+            ul{
+                gap: 0 30px;
+                li{
+                    list-style: none;
+                    a{
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 15px;
+                        text-decoration: none;
+                        color: #000;
+                    }
+                }
+                @media #{$tab}{
+                    flex-direction: column;
+                }
+
+                @media #{$mobile}{
+                    text-align: center;
+                }
+            }
+        }
+        .street{
+            a{
+                font-family: 'Golos Text', sans-serif;
+                font-style: 'Text Regular';
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 14px;
+                color: #000;
+                
+            }
+            @media #{$bigTab}{
+                text-align: end;
+            }
+        }
+        .phone_num{
+            a{
+                margin: 4px 0 10px 0;
+                font-family: 'Golos Text', sans-serif;
+                font-style: 'Text Regular';
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 17px;
+                color: #000;
+            }
+        }
+        .button_smaller{
+            background-color: #19252C;
+            border: none;
+            border-radius: 5px;
+            gap: 0 5px;
+            .address{
+                color: #fff;
+                font-family: 'Golos Text', sans-serif;
+                font-style: 'Text Regular';
+                font-size: 12px;
+                line-height: 13px;
+                font-weight: 400;
+            }
+        }
+    }
+}

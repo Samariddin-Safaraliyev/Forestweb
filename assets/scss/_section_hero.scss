@@ -1,0 +1,107 @@
+.hero{
+    color: #fff;
+    background: #19252C;
+    margin-bottom: 80px;
+    .hero_now{
+        padding-left: 10px;
+        .cars_phone{
+            position: relative;
+            .cars_imgs{
+                position: absolute;
+                top: 150px;
+                left: 500px;
+                right: 0;
+                @media #{$bigTab}{
+                    position: absolute;
+                    top: 94px;
+                    left: 293px;
+                    right: 0;
+                }
+                @media #{$tab}{
+                    position: absolute;
+                    top: 41px;
+                    left: 193px;
+                    right: 0;
+                }
+                @media #{$mobile}{
+                    position: absolute;
+                    top: 186px;
+                    left: -20px;
+                    right: 0;
+                }
+            }
+        }
+        .text{
+            padding: 52px 0 10px 0;
+            font-family: 'Raleway', sans-serif;
+            font-size: 56px;
+            line-height: 60px;
+            font-weight: bold;
+            @media #{$tab}{
+                padding: 23px 0 10px 0;
+                font-family: "Raleway", sans-serif;
+                font-size: 32px;
+                line-height: 35px;
+                font-weight: bold;
+            }
+        }
+        .text_2{
+            font-family: 'Raleway', sans-serif;
+            font-size: 24px;
+            line-height: 26px;
+            font-weight: 300;
+            @media #{$tab}{
+                font-family: "Raleway", sans-serif;
+                font-size: 18px;
+                line-height: 23px;
+                font-weight: 300;
+            }
+        }
+        .ref{     
+            padding: 51px 0 94px 0;
+            text-decoration: none;
+            color: #fff;
+            a{
+                padding: 12px 44px;
+                background: #BE2B23;
+                border-radius: 5px;
+                font-family: 'Raleway', sans-serif;
+                font-size: 16px;
+                line-height: 17px;
+                font-weight: 600;
+                text-decoration: none;
+                color: #fff;
+                &:hover{
+                    background: #E31E25;
+                }
+            }
+        }
+        .minut{
+            gap: 0 21px;
+            padding-bottom: 58px;
+            .left{
+                gap: 0 15px;
+                padding: 15px 18px 25px 15px;
+                background: #fff;
+                border-radius: 5px;
+                color: #38434A;
+            }
+            .right{
+                gap: 0 15px;
+                padding: 15px 18px 25px 15px;
+                background: #fff;
+                border-radius: 5px;
+                color: #38434A;
+            }
+            @media #{$tab}{
+                margin-top: 90px;
+                padding-bottom: 10px;
+            }
+            @media #{$mobile}{
+                margin-top: 250px;
+                flex-direction: column;
+                gap: 10px 0;
+            }
+        }
+    }
+}
